@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Animal_Sound
+namespace Animal_Sound.Animals
 {
-    internal class Dog : Animal
+    internal class AnimalFactory
     {
-        public Dog() : base("Dog", "ham ham ham") { }
     }
 }
