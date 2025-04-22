@@ -8,13 +8,7 @@ namespace Animal_Sound
     {
         static void Main(string[] args)
         {
-            List<Animal> animals = new List<Animal>
-            {
-                new Dog(),
-                new Cat(),
-                new Cow(),
-                new Capybara()
-            };
+            List<Animal> animals = AnimalFactory.CreateAllAnimals();
 
             foreach (var animal in animals)
             {
